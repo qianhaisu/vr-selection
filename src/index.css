@@ -1,0 +1,12 @@
+.locked-row {
+  background-color: #fafafa;
+  color: #8c8c8c;
+}
+
+.locked-row td {
+  background-color: #fafafa !important;
+}
+
+.locked-row a {
+  color: #8c8c8c;
+}
