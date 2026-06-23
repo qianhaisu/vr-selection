@@ -1,1 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Vercel
 .vercel
+
+# Logs
+*.log
+npm-debug.log*
