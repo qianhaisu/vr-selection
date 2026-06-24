@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import { viteSingleFile } from 'vite-plugin-singlefile';
 
 export default defineConfig({
-  plugins: [react()],
-  base: '/vr-selection/', // GitHub Pages 部署路径
+  plugins: [react(), viteSingleFile()],
+  base: './', // 相对路径，方便本地查看
 });
